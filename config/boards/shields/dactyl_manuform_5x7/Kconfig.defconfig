@@ -1,3 +1,6 @@
+config ZMK_SPLIT
+    default y
+
 if SHIELD_DACTYL_MANUFORM_5x7_LEFT
 
     config ZMK_KEYBOARD_NAME
@@ -12,12 +15,5 @@ if SHIELD_DACTYL_MANUFORM_5x7_RIGHT
 
     config ZMK_KEYBOARD_NAME
         default "AlanDR"
-
-endif
-
-if SHIELD_DACTYL_MANUFORM_5x7_LEFT || SHIELD_DACTYL_MANUFORM_5x7_RIGHT
-
-    config ZMK_SPLIT
-        default y
 
 endif
