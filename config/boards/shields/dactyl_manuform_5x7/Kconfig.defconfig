@@ -3,7 +3,7 @@ if SHIELD_DACTYL_MANUFORM_5x7_LEFT
     config ZMK_KEYBOARD_NAME
         default "AlanDL"
 
-    config ZMK_SPLIT_ROLE_CENTRAL
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
 
 endif
